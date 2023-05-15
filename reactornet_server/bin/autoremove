@@ -1,0 +1,2 @@
+#!/bin/bash
+find /var/www/html/files -type f -cmin +1800 -delete 2>/dev/null
